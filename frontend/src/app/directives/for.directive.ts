@@ -22,6 +22,5 @@ export class ForDirective implements OnInit {
         $implicit: number,
       })
     }
-    console.log(this.numbers)
   }
 }
