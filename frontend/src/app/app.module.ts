@@ -11,10 +11,15 @@ import { FooterComponent } from './components/template/footer/footer.component'
 import { NavComponent } from './components/template/nav/nav.component'
 
 import { MatSidenavModule } from '@angular/material/sidenav'
-import { MatListModule } from '@angular/material/list'
+import { MatCardModule } from '@angular/material/card'
+import { MatListModule } from '@angular/material/list';
+import { HomeComponent } from './views/home/home.component';
+import { ProductCrudComponent } from './views/product-crud/product-crud.component';
+import { RedDirective } from './directives/red.directive';
+import { ForDirective } from './directives/for.directive'
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, FooterComponent, NavComponent],
+  declarations: [AppComponent, HeaderComponent, FooterComponent, NavComponent, HomeComponent, ProductCrudComponent, RedDirective, ForDirective],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -22,6 +27,7 @@ import { MatListModule } from '@angular/material/list'
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent],
