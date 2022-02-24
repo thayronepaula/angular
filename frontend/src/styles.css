@@ -12,3 +12,13 @@ body {
 .red {
   color: #e3616b;
 }
+.msg-sucess{
+  background:#28a745;
+  color: #fff;
+}
+
+
+.msg-error{
+  background:#e3616b;
+  color: #fff;
+}
